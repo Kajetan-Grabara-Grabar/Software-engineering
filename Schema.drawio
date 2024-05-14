@@ -1,0 +1,147 @@
+<mxfile host="app.diagrams.net" modified="2024-05-14T17:12:54.590Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="_6ob-FXVyvGyGcpCyELd" version="24.4.0" type="device" pages="2">
+  <diagram name="Strona-1" id="Kqat1Y2zSoAm7RNug2vD">
+    <mxGraphModel dx="763" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EDgUvaT6lY4sTBDwSvdo-3" value="Log in action" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EDgUvaT6lY4sTBDwSvdo-1" target="EDgUvaT6lY4sTBDwSvdo-2" edge="1">
+          <mxGeometry x="0.0025" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDgUvaT6lY4sTBDwSvdo-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="270" y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EDgUvaT6lY4sTBDwSvdo-5" value="User and Password&lt;div&gt;using JS AWS SDK&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EDgUvaT6lY4sTBDwSvdo-2" target="EDgUvaT6lY4sTBDwSvdo-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDgUvaT6lY4sTBDwSvdo-10" value="API call parameters&lt;div&gt;with token&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="EDgUvaT6lY4sTBDwSvdo-2" target="EDgUvaT6lY4sTBDwSvdo-8" edge="1">
+          <mxGeometry x="-0.378" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDgUvaT6lY4sTBDwSvdo-2" value="Web GUI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EDgUvaT6lY4sTBDwSvdo-7" value="Access Token or 403" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="551" y="270" as="targetPoint" />
+            <mxPoint x="706.5172413793102" y="180" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="707" y="225" />
+              <mxPoint x="708" y="225" />
+              <mxPoint x="708" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDgUvaT6lY4sTBDwSvdo-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://datapivotal.com/wp-content/uploads/2022/09/AWS-coginto-user-identity-pool.png;" parent="1" vertex="1">
+          <mxGeometry x="590" y="50" width="231.11" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="EDgUvaT6lY4sTBDwSvdo-13" value="API call with parameters" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EDgUvaT6lY4sTBDwSvdo-8" target="EDgUvaT6lY4sTBDwSvdo-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDgUvaT6lY4sTBDwSvdo-8" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/A/aws-api-gateway-logo-368082D845-seeklogo.com.png;" parent="1" vertex="1">
+          <mxGeometry x="610" y="370" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EDgUvaT6lY4sTBDwSvdo-9" value="Query to AI chat bot" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.005;entryY=0.84;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EDgUvaT6lY4sTBDwSvdo-1" target="EDgUvaT6lY4sTBDwSvdo-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDgUvaT6lY4sTBDwSvdo-12" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://datadog-docs.imgix.net/images/integrations_logos/amazon_eks.png;" parent="1" vertex="1">
+          <mxGeometry x="505.06" y="580" width="401" height="257" as="geometry" />
+        </mxCell>
+        <mxCell id="EDgUvaT6lY4sTBDwSvdo-14" value="API answer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.199;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EDgUvaT6lY4sTBDwSvdo-12" target="EDgUvaT6lY4sTBDwSvdo-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDgUvaT6lY4sTBDwSvdo-15" value="API answer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.418;entryY=1.073;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EDgUvaT6lY4sTBDwSvdo-8" target="EDgUvaT6lY4sTBDwSvdo-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDgUvaT6lY4sTBDwSvdo-16" value="API answer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EDgUvaT6lY4sTBDwSvdo-2" target="EDgUvaT6lY4sTBDwSvdo-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MYz2FnQP8W1RIOvlQkwT-1" value="API call functions" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="140" height="150" as="geometry">
+            <mxRectangle x="300" y="20" width="130" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MYz2FnQP8W1RIOvlQkwT-2" value="Validating the querry" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="MYz2FnQP8W1RIOvlQkwT-1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MYz2FnQP8W1RIOvlQkwT-3" value="Trimming the output" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="MYz2FnQP8W1RIOvlQkwT-1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MYz2FnQP8W1RIOvlQkwT-4" value="Base64 photo encoding" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="MYz2FnQP8W1RIOvlQkwT-1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MYz2FnQP8W1RIOvlQkwT-6" value="Photo validating" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="MYz2FnQP8W1RIOvlQkwT-1">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MYz2FnQP8W1RIOvlQkwT-7" value="Uploading the photo&amp;nbsp;&lt;div&gt;for muli modal LLM&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.201;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EDgUvaT6lY4sTBDwSvdo-1" target="EDgUvaT6lY4sTBDwSvdo-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="380" />
+              <mxPoint x="454" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vXBywbgGMLrZi3NDRZrd" name="Strona-2">
+    <mxGraphModel dx="867" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z-L4KGFi-ulu2K4-iwwf-2" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-L4KGFi-ulu2K4-iwwf-5" value="Checking if user has a photo&lt;div&gt;Auth with Token&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z-L4KGFi-ulu2K4-iwwf-7" target="Z-L4KGFi-ulu2K4-iwwf-18">
+          <mxGeometry x="0.6364" y="-60" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z-L4KGFi-ulu2K4-iwwf-6" value="Update photo request&lt;div&gt;with Token and Photo&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Z-L4KGFi-ulu2K4-iwwf-7" target="Z-L4KGFi-ulu2K4-iwwf-18">
+          <mxGeometry x="0.5652" y="40" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z-L4KGFi-ulu2K4-iwwf-7" value="Web GUI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-L4KGFi-ulu2K4-iwwf-17" value="Receiving the photo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z-L4KGFi-ulu2K4-iwwf-18" target="Z-L4KGFi-ulu2K4-iwwf-7">
+          <mxGeometry x="-0.7242" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z-L4KGFi-ulu2K4-iwwf-18" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://connectoricons-prod.azureedge.net/releases/v1.0.1597/1.0.1597.3005/amazons3/icon.png;" vertex="1" parent="1">
+          <mxGeometry x="430" y="520" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-L4KGFi-ulu2K4-iwwf-19" value="Uploading a photo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.001;entryY=0.106;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Z-L4KGFi-ulu2K4-iwwf-2" target="Z-L4KGFi-ulu2K4-iwwf-7">
+          <mxGeometry x="-0.0002" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z-L4KGFi-ulu2K4-iwwf-20" value="Photo functions" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="100" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-L4KGFi-ulu2K4-iwwf-21" value="Validating the photo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Z-L4KGFi-ulu2K4-iwwf-20">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-L4KGFi-ulu2K4-iwwf-22" value="Cropping the size" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Z-L4KGFi-ulu2K4-iwwf-20">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VOw7iI2lYgpbVskgSnTm-1" value="First login Functions" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="240" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VOw7iI2lYgpbVskgSnTm-2" value="Creating a space for a user photo on S3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VOw7iI2lYgpbVskgSnTm-1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VOw7iI2lYgpbVskgSnTm-3" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VOw7iI2lYgpbVskgSnTm-1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VOw7iI2lYgpbVskgSnTm-4" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VOw7iI2lYgpbVskgSnTm-1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
