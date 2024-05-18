@@ -9,3 +9,5 @@ It is created with two components:
 Provisioning to the GUI application works with AWS Congito's user pool. EKS cluster uses IAM Users. 
 
 Users get a token from the AWS Cognito service and it is used to provision API calls to the AWS API gateway that serves as a bridge between the GuI and EKS cluster. Then the response is sent back. 
+
+The user has also an option to set an avatar photo. If the photo is not set, the default photo is shown. The user has an option to upload the photo.  
