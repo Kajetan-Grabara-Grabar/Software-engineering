@@ -34,3 +34,27 @@
 | End contition | Changing user password in AWS Congnito user pool |
 | Additional effect | In case of wrong old password or not meeting requirements for the new password, AWS cogniot will sent an error |
 | Term of calling the function | When user what to change the password |
+
+| Name of function   | Retrive avatar    |
+| ------- | ------------ |
+| Get avatar photo of the user from S3 using auth token and sesion token, photo is named with the user e-mail  |
+| Input data | - |
+| Input data source | - |
+| Conditions | When the user log in, get the user avatar photo |
+| Destination | Add customization to the web app |
+| Start contition | auth token, sesion token, e-mail |
+| End contition | Get avatar photo |
+| Additional effect | When photo not found, use default avatar |
+| Term of calling the function | When user log in to the service |
+
+| Name of function   | Uploading avatar    |
+| ------- | ------------ |
+| Uploading avator to S3 using auth token, session token and e-mail  |
+| Input data | photo |
+| Input data source | User upload photo via web interface |
+| Conditions |When the user wants to change the avatar photo |
+| Destination | Add customization to the web app |
+| Start contition | photo,auth token, sesion token, e-mail |
+| End contition | Change avatar on S3 |
+| Additional effect | Give an error when the image is not correct (wrong size, type) |
+| Term of calling the function | User uploading the photo and clicking replace |
