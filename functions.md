@@ -37,24 +37,48 @@
 
 | Name of function   | Retrive avatar    |
 | ------- | ------------ |
-| Get avatar photo of the user from S3 using auth token and sesion token, photo is named with the user e-mail  |
+| Get avatar image of the user from S3 using auth token and sesion token, image is named with the user e-mail  |
 | Input data | - |
 | Input data source | - |
-| Conditions | When the user log in, get the user avatar photo |
+| Conditions | When the user log in, get the user avatar image |
 | Destination | Add customization to the web app |
 | Start contition | auth token, sesion token, e-mail |
-| End contition | Get avatar photo |
-| Additional effect | When photo not found, use default avatar |
+| End contition | Get avatar image |
+| Additional effect | When image not found, use default avatar |
 | Term of calling the function | When user log in to the service |
 
 | Name of function   | Uploading avatar    |
 | ------- | ------------ |
-| Uploading avator to S3 using auth token, session token and e-mail  |
-| Input data | photo |
-| Input data source | User upload photo via web interface |
-| Conditions |When the user wants to change the avatar photo |
+| Description of the function |Uploading avator to S3 using auth token, session token and e-mail  |
+| Input data | image |
+| Input data source | User upload image via web interface |
+| Conditions |When the user wants to change the avatar image |
 | Destination | Add customization to the web app |
-| Start contition | photo,auth token, sesion token, e-mail |
+| Start contition | image,auth token, sesion token, e-mail |
 | End contition | Change avatar on S3 |
 | Additional effect | Give an error when the image is not correct (wrong size, type) |
-| Term of calling the function | User uploading the photo and clicking replace |
+| Term of calling the function | User uploading the image and clicking replace |
+
+| Name of function   | Send an LLM querry to LLM    |
+| ------- | ------------ |
+| Description of the function | Uploading a querry to LLM via AWS Api Gateway and authentication using ID token from AWS Congnito  |
+| Input data | LLM querry |
+| Input data source | User type the querry in the brackend in the web interafce |
+| Conditions | When user wants to use LLM |
+| Destination | Main functionality of the application |
+| Start contition | LLM querry, id token from AWS Cognito |
+| End contition | Getting answer from LLM |
+| Additional effect | Timeout or unauth answer |
+| Term of calling the function | User clicking send after typing something in the LLM querry bracket |
+
+| Name of function   | Send an image to multimodel AI |
+| ------- | ------------ |
+| Description of the function | Uploading a image encoded in base64 to multimodel AI via AWS Api Gateway and authentication using ID token from AWS Congnito  |
+| Input data | LLM querry |
+| Input data source | User type the querry in the brackend in the web interafce |
+| Conditions | When user uploads an image to web interafce and the check image function return true |
+| Destination | Additional function of the system, for a querry about send image |
+| Start contition | LLM querry, id token from AWS Cognito, encoded image |
+| End contition | Getting answer from LLM |
+| Additional effect | Timeout or unauth answer |
+| Term of calling the function | User clicking send after typing something in the LLM querry bracket and getting true from image checking function |
