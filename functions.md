@@ -71,6 +71,18 @@
 | Additional effect | Error from AWS Cognito |
 | Term of calling the function | When admin whats to delete an account |
 
+| Name of function   | Add user account using admin panel    |
+| ------- | ------------ |
+| Description of the function | Add a user account to the AWS Cognito  |
+| Input data | e-mail of the user to create, new user password |
+| Input data source | Fill the HTML form in the admin panel add user site |
+| Conditions | The user must log in first to delete an account and have the admin privileges |
+| Destination | Adding user account |
+| Start condition | e-mail of the user to create, session token, new user password admin privileges |
+| End condition | Adding an user account |
+| Additional effect | Error from AWS Cognito |
+| Term of calling the function | When admin whats to add an account |
+
 | Name of function   | Change priviledges to the user    |
 | ------- | ------------ |
 | Description of the function | Change privileges to the user via AWS Cognito  |
