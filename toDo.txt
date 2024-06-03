@@ -1,0 +1,4 @@
+- add arrows to the diagram
+- review classes on a meeting
+- fix typos and inconsistencies in writing
+- update useCase diagram and this diagram with missing things on each side
