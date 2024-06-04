@@ -125,10 +125,10 @@
 | Input data | - |
 | Input data source | - |
 | Conditions | The user must be logged in have default privileges, and upload CV and data edited|
-| Destination | User triggers lambda that triggers the AI analyses |
+| Destination | User changes status for ready |
 | Start condition | e-mail, session token, default privileges |
 | End condition | message that the process has been successfully started |
-| Additional effect | Error from AWS Lambda |
+| Additional effect | Error from Backend |
 | Term of calling the function | When the user is ready and wants to apply for a job |
 
 | Name of function   | Ask AI chat    |
